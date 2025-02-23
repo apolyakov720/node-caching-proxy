@@ -1,0 +1,18 @@
+{
+  "name": "node-caching-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "start-proxy": "node --experimental-fetch . start-proxy -p=3001 -o http://dummyjson.com",
+    "clear-cache": "node . clear-cache"
+  },
+  "keywords": [],
+  "author": "Polyakov Alexey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "yargs": "^17.7.2"
+  }
+}
